@@ -6,6 +6,9 @@ namespace ScoreBoard.Controllers
 {
     public class DashboardController : Controller
     {
-
+        public ActionResult Index()
+        {
+            return View();
+        }
     }
 }
